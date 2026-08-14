@@ -21,8 +21,9 @@ Read `docs/about-me.md` before doing anything else. It defines my experience lev
 ## Constraints
 
 - Never modify or commit a file unrelated to the current task.
-- Never ask me to paste a secret or API key into chat. I enter those in the provider's interface myself.
+- Never ask me to paste a secret or API key into chat. I enter those in the provider's interface myself. If a task seems to need a secret in code, stop and say so.
 - Do not reopen anything recorded in `docs/decisions.md`. If new information genuinely changes a settled decision, say so explicitly and ask before proceeding.
+- Follow `docs/security-and-data.md` for anything touching secrets, data, dependencies, or public exposure.
 <!-- Add project-specific constraints: files not to touch, APIs not to call, etc. -->
 
 ## Session protocol
@@ -38,5 +39,6 @@ Read `docs/about-me.md` before doing anything else. It defines my experience lev
 - `docs/backlog-and-project-management.md` - how work is captured and organized
 - `docs/ui-ux-guidelines.md` - design preferences
 - `docs/release-practices.md` - definition of done, deploy, when to ship
+- `docs/security-and-data.md` - secrets, data rules, pre-share checklist
 - `docs/decisions.md` - settled choices, append-only
 - `docs/session-handoff.md` - current state, rewritten every session
