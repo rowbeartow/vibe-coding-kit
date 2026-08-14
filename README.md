@@ -1,6 +1,6 @@
 # Vibe Coding Kit
 
-A starter set of context docs for building apps with AI. Explore an idea in a throwaway chat, and when it earns a real project, clone this kit, run one bootstrap prompt, and let your AI interview you into a fully set up project.
+A starter set of context docs for building apps with AI. Explore an idea in a prototyping chat, and when you want to bring it to live in a real project, clone this kit, run one bootstrap prompt, and let your AI interview you into a fully set up project.
 
 AI output quality tracks input context. Most vibe coding advice tells you to "provide context" without telling you what that context should be. This kit is the answer: nine documents covering what experienced developers carry in their heads, written down where AI coding tools can use them.
 
