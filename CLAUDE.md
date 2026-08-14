@@ -34,6 +34,7 @@ Read `docs/about-me.md` before doing anything else. It defines my experience lev
 
 ## Docs index
 
+- `docs/exploration.md` - pre-project method for the human; already done by the time a repo exists
 - `docs/about-me.md` - who I am and how to work with me
 - `docs/project-charter.md` - what we are building and why
 - `docs/backlog-and-project-management.md` - how work is captured and organized
