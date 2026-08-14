@@ -1,10 +1,12 @@
 # About Me
 
+**Privacy warning.** Assume everything in this doc gets committed and may end up public. Write nothing confidential: no health information, no credentials, no employer secrets, nothing you would not put in a bio. Describe how you work, not your private life.
+
 **Purpose:** This is the doc that calibrates everything. The same AI, the same project, and the same kit produce very different sessions depending on whether the person directing the work has never seen code or has shipped software for a decade. Say which you are, once, here.
 
 **Interview prompt.** Paste this into your AI tool, answer its questions, then have it draft this doc for your approval:
 
-> Interview me one question at a time to write my About Me doc for this project. Cover: my technical experience and what I already know, how I want technical decisions handled (make them for me, recommend and confirm, or present options), how I want instructions delivered, what I want explained versus skipped, and anything about how I work that you should accommodate. Then draft the doc using the template structure in docs/about-me.md.
+> Interview me one question at a time to write my About Me doc for this project. Cover: my technical experience and what I already know, how I want technical decisions handled (make them for me, recommend and confirm, or present options), how I want instructions delivered, what I want explained versus skipped, and anything about how I work that you should accommodate. Remind me not to include confidential, health, or credential information. Then draft the doc using the template structure in docs/about-me.md.
 
 ---
 

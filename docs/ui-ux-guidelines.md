@@ -24,8 +24,15 @@
 
 <!-- How the app talks: labels, empty states, errors. Plain language rules. Anything it should never say. -->
 
+## Interaction states and accessibility
+
+Every interactive element ships with all of its states: default, hover, focus, disabled, loading, empty, and error. A screen with only the happy state built is not done.
+
+Baseline accessibility, always on: real labels on form fields, visible focus indicators, every action reachable by keyboard, alt text on meaningful images, and color contrast that passes without squinting. Add stricter requirements here if you have them.
+
 ## Defaults the AI should follow
 
+- Approved patterns get reused, not redesigned. Once a form layout, table style, or button treatment is approved on one screen, every later screen uses it. If a pattern is not working, propose a change to the pattern itself rather than quietly diverging on one screen.
 - Reuse existing components and styles before inventing new ones.
 - One new screen at a time, reviewed before the next.
 - When a design choice is ambiguous, pick the simpler option and flag it, rather than adding flourishes.

@@ -32,7 +32,8 @@ Read `docs/agent-rules.md` first. It is the canonical behavior spec: change prot
 - `docs/project-charter.md` - what we are building and why
 - `docs/backlog-and-project-management.md` - how work is captured and organized
 - `docs/ui-ux-guidelines.md` - design preferences
-- `docs/release-practices.md` - definition of done, deploy, when to ship
+- `docs/release-practices.md` - definition of done, testing, rollback, when to ship
 - `docs/security-and-data.md` - secrets, data rules, pre-share checklist
+- `docs/system-map.md` - what talks to what; created only once the app has a database, external service, or third component
 - `docs/decisions.md` - settled choices, append-only
 - `docs/session-handoff.md` - current state, rewritten every session
