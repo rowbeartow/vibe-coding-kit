@@ -4,7 +4,7 @@
 
 **Interview prompt.** Paste this into your AI tool:
 
-> Read docs/security-and-data.md and interview me one question at a time to fill in the specifics: what data this app touches, whether any of it belongs to other people, whether any of it is sensitive (health, financial, personal contact info), where the app is deployed and who can reach it, and whether my work or industry has rules about data handling. Then update the doc, set up the secret-scanning and dependency-audit commands for this stack, and flag anything about my answers that changes the risk level.
+> Read docs/security-and-data.md and interview me one question at a time to fill in the specifics: what data this app touches, whether it stores data belonging to other people (third-party content pasted in for one-time processing does not raise the stakes; storing other people's data does), whether any of it is sensitive (health, financial, personal contact info), where the app is deployed and who can reach it, and whether my work or industry has rules about data handling. Then update the doc, set up the secret-scanning and dependency-audit commands for this stack, and flag anything about my answers that changes the risk level.
 
 ---
 

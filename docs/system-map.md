@@ -1,6 +1,6 @@
 # System Map
 
-**Create this doc only when the app gains a database, an external service, or a third component. Before that, the codebase is the map and this file should stay empty or absent.**
+**Leave this template untouched until the app gains a database, an external service the app itself calls at runtime, or a third component. Before that, the codebase is the map.**
 
 **Purpose:** One page that shows what talks to what, so a change in one place stops silently breaking another. It pays for itself the first time a session starts with no memory of how the pieces connect.
 

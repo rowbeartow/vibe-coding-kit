@@ -8,7 +8,7 @@ It works whether you have never written code or you have shipped software for ye
 
 ## How to use it
 
-**Before the project exists:** read `docs/exploration.md` and work the idea in a plain, disposable chat. Most ideas should die there cheaply. When one passes the graduation test, run the handoff prompt at the end of that doc and save the output.
+**Ideally before the project exists:** read `docs/exploration.md` and work the idea in a plain, disposable chat. Arriving at the bootstrap without having done it is fine; the bootstrap runs a brief version in place. Most ideas should die there cheaply. When one passes the graduation test, run the handoff prompt at the end of that doc and save the output.
 
 **When an idea earns a repo:**
 
@@ -24,16 +24,16 @@ Paste this into your AI tool in a fresh clone:
 > I just cloned the Vibe Coding Kit as the starting point for a new project. Read README.md, CLAUDE.md, and docs/agent-rules.md, then set this project up with me:
 >
 > 1. Ask whether I have an About Me doc from a previous project. If I do, I'll paste it; review it with me for anything stale and save it. If not, run the interview in docs/about-me.md.
-> 2. Ask whether I have exploration notes (the handoff output from docs/exploration.md). If I do, use them as inputs to the charter interview instead of asking me those questions again. If not, run a brief exploration first: interview me about the idea, probe its weak spots, and cut it until it hurts. Skip the throwaway prototype, and feed the answers straight into the charter interview rather than writing a separate doc.
+> 2. Ask whether I have exploration notes (the handoff output from docs/exploration.md). If I do, use them as inputs to the charter interview instead of asking me those questions again. If not, run a brief exploration first: interview me about the idea, probe its weak spots, and cut it until it hurts; skip the throwaway prototype and judge the graduation test on the remaining signals. Feed the answers straight into the charter interview rather than writing a separate doc.
 > 3. Run the interview in docs/project-charter.md, including the eight settle-first questions, and record each settled decision in docs/decisions.md.
-> 4. Run the interviews in docs/backlog-and-project-management.md, docs/ui-ux-guidelines.md, docs/release-practices.md (including the two rollback questions), and docs/security-and-data.md (including setting up the secret-scanning and dependency-audit commands for this stack).
+> 4. Run the interviews in docs/backlog-and-project-management.md, docs/ui-ux-guidelines.md, docs/release-practices.md (including the two rollback questions), and docs/security-and-data.md (including setting up the secret-scanning command for this stack; the dependency audit is recorded later, at first scaffold, per that doc).
 > 5. Check whether this folder is connected to its own GitHub repository. If there is no remote, or origin still points at the Vibe Coding Kit, walk me through creating a repository on github.com and pointing origin at it, then continue. Defaults unless I say otherwise: my personal account, named after the project, private, created empty with no README or .gitignore of its own.
-> 6. Set up the tracker. GitHub Issues is the default; adapt only if I name a different tracker. Create the `inbox` and `needs-decision` labels now, because the session protocol depends on them existing; if you cannot write to GitHub from here, give me exact web-UI steps to create them myself. Then file everything on the capture list as `inbox` issues.
-> 7. Skip docs/system-map.md unless the project already meets its trigger: a database, an external service, or a third component.
+> 6. Set up the tracker. GitHub Issues is the default; adapt only if I name a different tracker. Create the `inbox` and `needs-decision` labels now, because the session protocol depends on them existing; if you cannot write to GitHub from here, give me exact web-UI steps to create them myself. Then file each capture-list item worth revisiting as an `inbox` issue; ideas we considered and rejected can drop.
+> 7. Leave docs/system-map.md untouched unless the project already meets its trigger: a database, an external service the app itself calls at runtime (the deploy host and GitHub do not count), or a third component.
 > 8. Fill in CLAUDE.md from everything we settled, and rewrite README.md to describe this project in a short paragraph drawn from the charter: what it is and who it is for, adding how to run it once there is an app to run.
 > 9. Finish by writing the first docs/session-handoff.md, with the exact next action being the first step of the deploy-first setup in docs/release-practices.md, not the whole sequence.
 >
-> One doc at a time, one question at a time. Ask every interview question in plain language; whenever I cannot answer, recommend one option with a one-line reason and ask me for a yes. Draft each doc for my approval before moving to the next; when a doc is approved, remove its interview-prompt block and keep its Purpose line. Until the tracker exists, hold any ideas or issues that surface in a running capture list. Skip anything my exploration notes or About Me already answer.
+> One doc at a time, one question at a time. Ask every interview question in plain language; whenever I cannot answer, recommend one option with a one-line reason and ask me for a yes. Draft each doc for my approval before moving to the next; when a doc is approved, remove its interview-prompt block, from the prompt heading through the quoted text, and keep its Purpose line. Until the tracker exists, hold any ideas or issues that surface in a running capture list in this chat. Skip any question already settled earlier in this bootstrap, including by my exploration notes or About Me.
 
 ## How the docs behave
 
