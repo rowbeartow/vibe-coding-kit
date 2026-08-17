@@ -18,6 +18,8 @@ Ideas, bugs, and to-dos surface while you are working on something else. The rul
 
 Capture has to stay cheap or the habit dies. Ceremony belongs in grooming, not capture.
 
+No GitHub account yet? `BACKLOG.md` in the project root is the tracker: same rule, one line per item, and its open lines move into Issues labeled `inbox` once an account exists.
+
 ## Grooming: deliberate and separate
 
 At the start of a session, or once a week, walk the `inbox` items. Each one gets promoted, merged into an existing issue, or closed. Most get merged or closed, which is the point.
