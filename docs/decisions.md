@@ -5,7 +5,7 @@
 **Rules:**
 
 - Append only. Never edit or delete past entries. If a decision changes, add a new entry that supersedes the old one and says why.
-- One line of reasoning per entry. Enough to remember why, not a essay.
+- One line of reasoning per entry. Enough to remember why, not an essay.
 - The AI does not reopen anything recorded here. If new information genuinely changes a settled decision, it says so explicitly and asks first.
 
 **Format:**
@@ -17,4 +17,4 @@ Reasoning in one or two lines. Supersedes [earlier entry] if applicable.
 
 ---
 
-<!-- Entries begin here. The six settle-first decisions from the project charter should be the first entries. -->
+<!-- Entries begin here. The eight settle-first decisions from the project charter should be the first entries. -->

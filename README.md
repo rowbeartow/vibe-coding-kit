@@ -25,7 +25,7 @@ Paste this into your AI tool in a fresh clone:
 >
 > 1. Ask whether I have an About Me doc from a previous project. If I do, I'll paste it; review it with me for anything stale and save it. If not, run the interview in docs/about-me.md.
 > 2. Ask whether I have exploration notes (the handoff output from docs/exploration.md). If I do, use them as inputs to the charter interview instead of asking me those questions again. If not, run the exploration moves briefly first.
-> 3. Run the interview in docs/project-charter.md, including the seven settle-first questions, and record each settled decision in docs/decisions.md.
+> 3. Run the interview in docs/project-charter.md, including the eight settle-first questions, and record each settled decision in docs/decisions.md.
 > 4. Run the interviews in docs/backlog-and-project-management.md, docs/ui-ux-guidelines.md, docs/release-practices.md (including the two rollback questions), and docs/security-and-data.md (including setting up the secret-scanning and dependency-audit commands for this stack).
 > 5. Set up the tracker. GitHub Issues is the default; adapt only if I name a different tracker. Create the `inbox` and `needs-decision` labels now, because the session protocol depends on them existing.
 > 6. Skip docs/system-map.md unless the project already meets its trigger: a database, an external service, or a third component.

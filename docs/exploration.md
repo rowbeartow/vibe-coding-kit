@@ -49,6 +49,6 @@ If the idea fails the test, close the chat and feel good about it. You spent an 
 
 When an idea graduates, do not rebuild the thinking from memory. Run this at the end of the exploration chat:
 
-> This idea has earned a real project. Distill this whole conversation into charter inputs I can carry into a new repo: the problem in one sentence and who has it; inputs, process, output, and goal; success criteria for v1; everything we decided to cut, as an out-of-scope list; any of these we already settled: objective, definition of done, deploy target, data layer, auth, lifespan; and the open questions the project charter interview should resolve. Plain markdown, no code.
+> This idea has earned a real project. Distill this whole conversation into charter inputs I can carry into a new repo: the problem in one sentence and who has it; inputs, process, output, and goal; success criteria for v1; everything we decided to cut, as an out-of-scope list; any of these we already settled: objective, definition of done, deploy target, stack, data layer, auth, lifespan, risk; and the open questions the project charter interview should resolve. Plain markdown, no code.
 
 Save the output. Then clone this kit as your new project and run the bootstrap prompt in the README, which will ask for these notes and feed them into the charter interview. Exploration output becomes charter input, and nothing gets re-derived.
