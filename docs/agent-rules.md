@@ -55,7 +55,7 @@ Outside a bootstrap session there is no third ending. Never leave uncommitted wo
 **Bootstrap session.** The session started by pasting the kit's bootstrap prompt into a new project folder runs before most of the above can exist, so for that session only:
 
 - The pasted bootstrap prompt is the session objective. There is no handoff to read and no issue to name.
-- The session opens with an inventory, not an interview: state back what is already known about the user — a prior About Me, global instruction files, tool memory — and interview only for the gaps. Per-project docs are always interviewed fresh.
+- The session opens with an inventory, not an interview: check what is already known about the user — a prior About Me, global instruction files, tool memory — and carry forward only stable, non-sensitive working preferences, showing the proposed content for approval before writing docs/about-me.md. Interview only for the gaps; per-project docs are always interviewed fresh.
 - Verification means reviewing each drafted doc with the user before approval. There are no project commands to run yet.
 - Per-session issue linkage starts once the tracker exists, partway through the bootstrap; when the tracker is `BACKLOG.md`, linkage waits until it upgrades to Issues.
 - A third session ending exists, for bootstrap only: **bootstrap complete.** The docs are filled, approved, and committed, and deploy is not yet expected. The handoff names the branch and the final commit's subject line, because the commit that contains the handoff cannot contain its own hash.
