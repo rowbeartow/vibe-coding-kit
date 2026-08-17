@@ -43,7 +43,7 @@ The invariant is: never lose state.
 
 **Opening.** Read `docs/session-handoff.md`. State back the objective, current state, and next action before starting work.
 
-**During.** When a bug or idea surfaces that is not the current task, capture it as a GitHub issue labeled `inbox` in one line and return to the work. See `docs/backlog-and-project-management.md`.
+**During.** When a bug or idea surfaces that is not the current task, capture it in one line — a GitHub issue labeled `inbox`, or a line in `BACKLOG.md` when the project has no GitHub repository yet — and return to the work. See `docs/backlog-and-project-management.md`.
 
 **Ending.** A session ends one of two ways:
 
@@ -52,9 +52,10 @@ The invariant is: never lose state.
 
 Outside a bootstrap session there is no third ending. Never leave uncommitted work, and never write a handoff that claims more than was verified.
 
-**Bootstrap session.** The first session in a fresh copy of the kit runs before most of the above can exist, so for that session only:
+**Bootstrap session.** The session started by pasting the kit's bootstrap prompt into a new project folder runs before most of the above can exist, so for that session only:
 
-- The bootstrap prompt in the README is the session objective. There is no handoff to read and no issue to name.
+- The pasted bootstrap prompt is the session objective. There is no handoff to read and no issue to name.
+- The session opens with an inventory, not an interview: check what is already known about the user — a prior About Me, global instruction files, tool memory — and carry forward only stable, non-sensitive working preferences, showing the proposed content for approval before writing docs/about-me.md. Interview only for the gaps; per-project docs are always interviewed fresh.
 - Verification means reviewing each drafted doc with the user before approval. There are no project commands to run yet.
-- Per-session issue linkage starts once the tracker exists, partway through the bootstrap.
+- Per-session issue linkage starts once the tracker exists, partway through the bootstrap; when the tracker is `BACKLOG.md`, linkage waits until it upgrades to Issues.
 - A third session ending exists, for bootstrap only: **bootstrap complete.** The docs are filled, approved, and committed, and deploy is not yet expected. The handoff names the branch and the final commit's subject line, because the commit that contains the handoff cannot contain its own hash.
