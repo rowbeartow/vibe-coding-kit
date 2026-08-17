@@ -1,0 +1,13 @@
+# Secrets never get committed. See docs/security-and-data.md.
+.env
+.env.*
+!.env.example
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp

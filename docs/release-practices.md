@@ -12,7 +12,7 @@
 
 Get deployment working before any features exist, so it is never the unknown variable later.
 
-1. Repo with a README, a `.gitignore` for the stack, and a `.env.example` listing variable names with no values. `.env` is never committed.
+1. Repo with a README, the kit's `.gitignore` with any stack-specific lines appended, and a `.env.example` listing variable names with no values. `.env` is never committed.
 2. Commit a skeleton that renders one page or returns one response.
 3. Connect the deploy target and enable auto-deploy from `main`.
 4. Confirm the skeleton is live at a real URL.
