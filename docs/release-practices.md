@@ -18,6 +18,8 @@ Get deployment working before any features exist, so it is never the unknown var
 4. Confirm the skeleton is live at a real URL.
 5. Then start building.
 
+A caution for step 2: scaffolding generators (`npm create vite` and its peers) expect an empty directory and bring their own README and .gitignore. Scaffold in a directory to the side, then merge selectively into the kit's populated root. Do not let a generator overwrite the docs.
+
 Work on short-lived branches. `main` is always deployable: anything merged there is verified and safe to ship at any moment. Do not let branches accumulate.
 
 ## Definition of done
