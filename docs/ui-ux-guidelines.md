@@ -4,7 +4,7 @@
 
 **Interview prompt.** Paste this into your AI tool:
 
-> Interview me one question at a time to write my UI/UX guidelines. Ask about: overall feel (dense and utilitarian versus spacious and polished), color preferences and anything I dislike, light or dark mode, typography preferences if any, how much the app should explain itself on screen, mobile versus desktop priority, and accessibility requirements. If I have screenshots of apps whose look I like, ask me to share them and describe what specifically to take from each. Then draft the doc.
+> Interview me one question at a time to write my UI/UX guidelines. Ask about: overall feel (dense and utilitarian versus spacious and polished), color preferences and anything I dislike, light or dark mode, typography preferences if any, how much the app should explain itself on screen, how the app should talk (labels, empty states, errors, and anything it should never say), mobile versus desktop priority, and accessibility requirements. If I have screenshots of apps whose look I like, ask me to share them and describe what specifically to take from each. Then draft the doc.
 
 ---
 

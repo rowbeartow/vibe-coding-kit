@@ -33,7 +33,7 @@ Paste this into your AI tool in a fresh clone:
 > 8. Fill in CLAUDE.md from everything we settled, and rewrite README.md to describe this project in a short paragraph drawn from the charter: what it is and who it is for, adding how to run it once there is an app to run.
 > 9. Finish by writing the first docs/session-handoff.md, with the exact next action being the deploy-first setup in docs/release-practices.md.
 >
-> One doc at a time, one question at a time. Draft each doc for my approval before moving to the next; when a doc is approved, remove its interview-prompt block and keep its Purpose line. Until the tracker exists, hold any ideas or issues that surface in a running capture list. Skip anything my exploration notes or About Me already answer.
+> One doc at a time, one question at a time. Ask every interview question in plain language; whenever I cannot answer, recommend one option with a one-line reason and ask me for a yes. Draft each doc for my approval before moving to the next; when a doc is approved, remove its interview-prompt block and keep its Purpose line. Until the tracker exists, hold any ideas or issues that surface in a running capture list. Skip anything my exploration notes or About Me already answer.
 
 ## How the docs behave
 
