@@ -2,21 +2,23 @@
 
 This file loads every session. Keep it short and current.
 
+> **Template-source note.** This repository is the kit itself, so the docs are the shipped templates. `docs/session-handoff.md` and `docs/decisions.md` stay unfilled here, and the session protocol's file targets do not apply in this repo: session state lives in chat handoff blocks, and capture goes to GitHub issues labeled `inbox`. Delete this block when bootstrapping a real project; the CLAUDE.md rewrite in the bootstrap prompt covers it.
+
 ## Rules
 
 Read `docs/agent-rules.md` first. It is the canonical behavior spec: change protocol, stop conditions, two-failure rule, session protocol. Then read `docs/about-me.md` for who you are working with and how to deliver instructions.
 
 ## Project
 
-<!-- One paragraph: what this app is, who uses it, what problem it solves. Pull from docs/project-charter.md once written. -->
+<!-- One paragraph: what this app is, who uses it, what problem it solves. Pull from docs/project-charter.md once written. Anything longer than a paragraph belongs in the charter, not here. -->
 
 ## Architecture and stack
 
-<!-- Filled in once decided. Stack, deploy target, data layer, auth approach. One line each. -->
+<!-- Filled in once decided. Stack, deploy target, data layer, auth approach. One line each. No reasoning and no diagrams: docs/decisions.md holds the why, docs/system-map.md the wiring. -->
 
 ## Commands
 
-<!-- Exact commands to run, test, and deploy. Filled in during setup. -->
+<!-- Exact commands to run, test, and deploy, one line each with what it does. Include the secret-scan and dependency-audit commands from docs/security-and-data.md. Nothing speculative: only commands that actually run in this project. -->
 
 ## Project constraints
 
