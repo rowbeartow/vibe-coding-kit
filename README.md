@@ -2,7 +2,7 @@
 
 A starter set of context docs for building apps with AI. Explore an idea in a prototyping chat, and when you want to bring it to life in a real project, clone this kit, run one bootstrap prompt, and let your AI interview you into a fully set up project.
 
-AI output quality tracks input context. Most vibe coding advice tells you to "provide context" without telling you what that context should be. This kit is the answer: eleven documents covering what experienced developers carry in their heads, written down where AI coding tools can use them.
+AI output quality tracks input context. Most vibe coding advice tells you to "provide context" without telling you what that context should be. This kit helps produce eleven context docs that capture the kinds of decisions, constraints, and project knowledge experienced developers often carry in their heads, and puts them where AI coding tools can use them.
 
 It works whether you have never written code or you have shipped software for years. The About Me doc is what calibrates everything else to you.
 
