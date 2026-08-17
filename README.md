@@ -30,7 +30,7 @@ Paste this into your AI tool in a fresh clone:
 > 5. Check whether this folder is connected to its own GitHub repository. If there is no remote, or origin still points at the Vibe Coding Kit, walk me through creating a repository on github.com and pointing origin at it, then continue.
 > 6. Set up the tracker. GitHub Issues is the default; adapt only if I name a different tracker. Create the `inbox` and `needs-decision` labels now, because the session protocol depends on them existing. Then file everything on the capture list as `inbox` issues.
 > 7. Skip docs/system-map.md unless the project already meets its trigger: a database, an external service, or a third component.
-> 8. Fill in CLAUDE.md from everything we settled, and rewrite README.md to describe this project: what it is, who it is for, and how to run it, in a short paragraph drawn from the charter.
+> 8. Fill in CLAUDE.md from everything we settled, and rewrite README.md to describe this project in a short paragraph drawn from the charter: what it is and who it is for, adding how to run it once there is an app to run.
 > 9. Finish by writing the first docs/session-handoff.md, with the exact next action being the deploy-first setup in docs/release-practices.md.
 >
 > One doc at a time, one question at a time. Draft each doc for my approval before moving to the next; when a doc is approved, remove its interview-prompt block and keep its Purpose line. Until the tracker exists, hold any ideas or issues that surface in a running capture list. Skip anything my exploration notes or About Me already answer.

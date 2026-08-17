@@ -18,7 +18,7 @@ Read `docs/agent-rules.md` first. It is the canonical behavior spec: change prot
 
 ## Commands
 
-<!-- Exact commands to run, test, and deploy, one line each with what it does. Include the secret-scan and dependency-audit commands from docs/security-and-data.md. Nothing speculative: only commands that actually run in this project. -->
+<!-- Exact commands to run, test, and deploy, one line each with what it does. Filled in as commands become real: the secret scan at bootstrap, the dependency audit at first scaffold, run and test and deploy once they exist. Nothing speculative: only commands that actually run in this project today. -->
 
 ## Project constraints
 

@@ -50,4 +50,11 @@ The invariant is: never lose state.
 1. **Completed and verified.** The change is done, verification ran, the work is committed and deployed per `docs/release-practices.md`, and the handoff is updated.
 2. **Incomplete, on a branch.** The work is committed to a branch, and the handoff says honestly what is done, what is not, and the exact next action.
 
-There is no third ending. Never leave uncommitted work, and never write a handoff that claims more than was verified.
+Outside a bootstrap session there is no third ending. Never leave uncommitted work, and never write a handoff that claims more than was verified.
+
+**Bootstrap session.** The first session in a fresh copy of the kit runs before most of the above can exist, so for that session only:
+
+- The bootstrap prompt in the README is the session objective. There is no handoff to read and no issue to name.
+- Verification means reviewing each drafted doc with the user before approval. There are no project commands to run yet.
+- Per-session issue linkage starts once the tracker exists, partway through the bootstrap.
+- A third session ending exists, for bootstrap only: **bootstrap complete.** The docs are filled, approved, and committed, and deploy is not yet expected. The handoff names the branch and the final commit's subject line, because the commit that contains the handoff cannot contain its own hash.

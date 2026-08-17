@@ -12,7 +12,7 @@
 
 - API keys, passwords, and tokens never appear in code, in committed files, or in chat with an AI. They go in environment variables, entered directly in the provider's interface.
 - The repo carries a `.env.example` with variable names and no values. `.env` is in `.gitignore` and never committed.
-- At bootstrap, the AI sets up stack-appropriate scanning and records the exact commands in CLAUDE.md under Commands: a secret scanner (gitleaks or similar) and a dependency audit (`npm audit`, `pip-audit`, or the stack's equivalent).
+- At bootstrap, the AI sets up a secret scanner (gitleaks or similar) and records the exact command in CLAUDE.md under Commands. The dependency audit (`npm audit`, `pip-audit`, or the stack's equivalent) is recorded at the first scaffold instead, in the same commit that introduces the package manifest it audits.
 - If a secret does get committed: rotate it immediately at the provider. Deleting the commit is not enough; git history and forks keep it alive. Rotation is the fix, deletion is cleanup.
 - The AI's standing instruction: if a task seems to need a secret in code, stop and say so instead of hardcoding a placeholder that becomes permanent.
 
